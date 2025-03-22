@@ -28,6 +28,8 @@ set ignorecase
 set smartcase
 set gdefault
 nmap <leader>nh :noh<CR>
+vmap s <Nop>
+nmap s <Nop>
 
 " ideavim settings
 set ideajoin
