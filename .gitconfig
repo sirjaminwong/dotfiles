@@ -1,0 +1,20 @@
+[user]
+	name = jamin
+	email = sirjaminwong@gmail.com
+[alias]
+	lg = log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'
+	s = status
+	m = checkout master
+	ca = commit --amend
+	cm = commit -m
+	co = checkout
+	cob = checkout -b
+	ci = commit
+	br = branch
+	brm = branch -m
+	df = diff
+	discard = reset HEAD --hard
+	unstage = reset HEAD --
+	uncommit = reset --soft HEAD^
+	up = pull --rebase origin master
+	lga = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
