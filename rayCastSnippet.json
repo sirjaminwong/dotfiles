@@ -1,0 +1,18 @@
+[
+  {
+    "text": "作为资深前端专家构建企业级 {argument name=\"name\"} 组件，技术栈要求：\n\n##框架：React 18 + TS {argument name=\"tsVersion\" default=\"5\"}+ & Next.js14\n##关键文件：\n- schema.graphql: .\\/schema.graphql\n- type: .\\/generated\\/gql\\/\n## 注释规范：仅关键逻辑处添加注释\n##  是否启用 memo：{argument name=\"useMemo\" default=\"yes\" options=\"yes,no\"}\n",
+    "name": "create React component"
+  },
+  {
+    "text": "把我这段需求，转换成适合 AI 理解和编写代码的技术需求：\n",
+    "name": "enhance Tech Prompt"
+  },
+  {
+    "text": "请帮我将以下 React 组件中的副作用和业务逻辑提取为自定义 Hook（useXXX），保留 UI 部分不变，要求：\n- 使用 React {argument name=\"ReactVersion\" default=\"19\"}与 TypeScript 的最佳实践\n- 注释仅在关键逻辑处添加必要说明",
+    "name": "hooks 提取"
+  },
+  {
+    "name": "comment",
+    "text": "请添加详细注释，包含参数、返回值及用途说明，要求：\n- 注释风格：{argument name=\"commentStyle\" default=\"JSDoc\" options=\"JSDoc,中文简洁说明,英文注释\"}\n- 仅在关键逻辑处添加注释，保持代码整洁"
+  }
+]
